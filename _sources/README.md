@@ -7,7 +7,9 @@ This is the materials used for the Medical Doctor Tutorial in September 2022 (?)
 ___
 
 
-## Temporary link to material on Cecile's github [CESM Tutorial for MD]
+## Temporary link 
+
+Link to material on [Cecile's github]
 (https://cecilehannay.github.io/CESM-Tutorial-MD/README.html)
 
 <div>
