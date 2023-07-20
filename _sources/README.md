@@ -1,7 +1,8 @@
 
 # [Climate Modeling Workshop](https://ncar.github.io/CESM-Tutorial-Innovator/README.html)
 
-Thursday August 3, 2023 (9:00-2:00 pm MT)
+<center>Thursday August 3, 2023 (9:00-2:00 pm MT)</center> 
+
 
 FL1-2198-EOL-Atrium
 
