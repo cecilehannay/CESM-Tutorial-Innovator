@@ -2,7 +2,7 @@
 # [Climate Modeling Workshop](https://ncar.github.io/CESM-Tutorial-Innovator/README.html)
 
 ___
-![young_innovator_logo](../../images/young_innovator_logo.png)
+![young_innovator_logo](images/young_innovator_logo.png)
 ___
 
 ## Climate Modeling Workshop 
