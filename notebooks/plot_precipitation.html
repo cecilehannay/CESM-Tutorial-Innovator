@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Here you can plot the individual members from the ensemble. Feel free to modify the members that are plotted by changing the numbers in the members array. Note that you can only have a maximum of 9 members &#8212; CESM Tutorial</title>
+    <title>Plot Precipitation &#8212; CESM Tutorial</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -148,7 +148,7 @@ const thebe_selector_output = ".output, .cell_output"
   <ul class="current">
    <li class="toctree-l2 current active">
     <a class="current reference internal" href="#">
-     Here you can plot the individual members from the ensemble.  Feel free to modify the members that are plotted by changing the numbers in the members array.  Note that you can only have a maximum of 9 members
+     Plot Precipitation
     </a>
    </li>
   </ul>
@@ -333,23 +333,74 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#winter-dec-jan-feb-averaged-precipitation-in-the-50-member-cesm2-large-ensemble">
+   Winter (Dec-Jan-Feb) averaged precipitation in the 50 member CESM2 large ensemble
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#here-you-can-plot-the-individual-members-from-the-ensemble-feel-free-to-modify-the-members-that-are-plotted-by-changing-the-numbers-in-the-members-array-note-that-you-can-only-have-a-maximum-of-9-members">
+     Here you can plot the individual members from the ensemble.  Feel free to modify the members that are plotted by changing the numbers in the members array.  Note that you can only have a maximum of 9 members
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Here you can plot the individual members from the ensemble.  Feel free to modify the members that are plotted by changing the numbers in the members array.  Note that you can only have a maximum of 9 members</h1>
+                <h1>Plot Precipitation</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#winter-dec-jan-feb-averaged-precipitation-in-the-50-member-cesm2-large-ensemble">
+   Winter (Dec-Jan-Feb) averaged precipitation in the 50 member CESM2 large ensemble
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#here-you-can-plot-the-individual-members-from-the-ensemble-feel-free-to-modify-the-members-that-are-plotted-by-changing-the-numbers-in-the-members-array-note-that-you-can-only-have-a-maximum-of-9-members">
+     Here you can plot the individual members from the ensemble.  Feel free to modify the members that are plotted by changing the numbers in the members array.  Note that you can only have a maximum of 9 members
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -357,8 +408,12 @@ title="Print to PDF"
                 
               <div>
                 
-  <h1>Winter (Dec-Jan-Feb) averaged precipitation in the 50 member CESM2 large ensemble</h1>
-<h2>In this notebook you'll read in data from 50 members of the CESM2 large ensemble and explore the climate change response and the uncertainty due to internal variability in the winter means of precipitation</h2><h3><font color='red'>Cell 1</font></h3><div class="cell docutils container">
+  <section class="tex2jax_ignore mathjax_ignore" id="plot-precipitation">
+<h1>Plot Precipitation<a class="headerlink" href="#plot-precipitation" title="Permalink to this headline">#</a></h1>
+<section id="winter-dec-jan-feb-averaged-precipitation-in-the-50-member-cesm2-large-ensemble">
+<h2>Winter (Dec-Jan-Feb) averaged precipitation in the 50 member CESM2 large ensemble<a class="headerlink" href="#winter-dec-jan-feb-averaged-precipitation-in-the-50-member-cesm2-large-ensemble" title="Permalink to this headline">#</a></h2>
+<p>In this notebook you’ll read in data from 50 members of the CESM2 large ensemble and explore the climate change response and the uncertainty due to internal variability in the winter means of precipitation</p>
+<h3><font color='red'>Cell 1</font></h3><div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Execute this cell to load the functions necessary for the computations</span>
 <span class="kn">from</span> <span class="nn">functions</span> <span class="kn">import</span> <span class="o">*</span>
@@ -406,7 +461,7 @@ title="Print to PDF"
 </div>
 </div>
 <section id="here-you-can-plot-the-individual-members-from-the-ensemble-feel-free-to-modify-the-members-that-are-plotted-by-changing-the-numbers-in-the-members-array-note-that-you-can-only-have-a-maximum-of-9-members">
-<h1>Here you can plot the individual members from the ensemble.  Feel free to modify the members that are plotted by changing the numbers in the members array.  Note that you can only have a maximum of 9 members<a class="headerlink" href="#here-you-can-plot-the-individual-members-from-the-ensemble-feel-free-to-modify-the-members-that-are-plotted-by-changing-the-numbers-in-the-members-array-note-that-you-can-only-have-a-maximum-of-9-members" title="Permalink to this headline">#</a></h1>
+<h3>Here you can plot the individual members from the ensemble.  Feel free to modify the members that are plotted by changing the numbers in the members array.  Note that you can only have a maximum of 9 members<a class="headerlink" href="#here-you-can-plot-the-individual-members-from-the-ensemble-feel-free-to-modify-the-members-that-are-plotted-by-changing-the-numbers-in-the-members-array-note-that-you-can-only-have-a-maximum-of-9-members" title="Permalink to this headline">#</a></h3>
 <h3><font color='red'>Cell 4</font></h3><div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">16</span><span class="p">,</span><span class="mi">16</span><span class="p">))</span>
@@ -427,6 +482,8 @@ title="Print to PDF"
 </div>
 </div>
 </section>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -437,16 +494,16 @@ title="Print to PDF"
         },
         codeMirrorConfig: {
             theme: "abcdef",
-            mode: "npl-2023b"
+            mode: "python"
         },
         kernelOptions: {
-            name: "npl-2023b",
+            name: "python3",
             path: "./notebooks"
         },
         predefinedOutput: true
     }
     </script>
-    <script>kernelName = 'npl-2023b'</script>
+    <script>kernelName = 'python3'</script>
 
               </div>
               
