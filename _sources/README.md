@@ -1,13 +1,12 @@
 
-# <center>[Climate Modeling Workshop](https://ncar.github.io/CESM-Tutorial-Innovator/README.html)</center>
-
-<center>Thursday August 3, 2023 (9:00-2:00 pm MT)</center> 
-<center>FL1-2198-EOL-Atrium</center>
-
+# [Climate Modeling Workshop](https://ncar.github.io/CESM-Tutorial-Innovator/README.html)
 ___
 ![young_innovator_logo](images/young_innovator_logo.png)
 ___
 
+# <center>**[Climate Modeling Workshop](https://ncar.github.io/CESM-Tutorial-Innovator/README.html)**</center>
+<center>Thursday August 3, 2023 (9:00-2:00 pm MT)</center> 
+<center>FL1-2198-EOL-Atrium</center>
 
 ### Planning committee
 Melissa Moulton, Cecile Hannay, Isla Simpson, Brian Dobbins & Alexandra Ramos
