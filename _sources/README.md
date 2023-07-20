@@ -6,6 +6,12 @@
 
 ## Climate Modeling Workshop 
 
+___
+![CESM directories and namelists](images/namelist/CESM_directories_and_namelists.png)
+<p style="text-align: center;"> Figure 1: Overview of the CESM directories and the namelist files. </p>
+
+___
+
 Thursday August 3, 2023 (9:00-2:00 pm MT)
 
 FL1-2198-EOL-Atrium
